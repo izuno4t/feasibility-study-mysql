@@ -6,3 +6,4 @@ example/.idea/runConfigurations.xml
 example/.idea/saveactions_settings.xml
 example/.idea/vcs.xml
 example/.idea/sonarlint/issuestore/index.pb
+example/target/
