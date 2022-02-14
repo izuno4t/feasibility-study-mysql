@@ -121,3 +121,7 @@ done
 ```bash
 gzcat  HAC_SERDEV_LIST_20171130_365.json.gz | jq -r '.[] | [.SERIAL_NUMBER, .DEVICE_ID, .MAC_ADDRESS, .UPDATE_DATE] | @csv' > HAC_SERDEV_LIST_20171130_365.csv
 ```
+
+## refs
+
+- [MySQL に大量のデータを手っ取り早く挿入する](https://qiita.com/ngyuki/items/0e7886fe9e59cf37a974)
