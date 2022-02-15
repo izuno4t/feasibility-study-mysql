@@ -119,7 +119,7 @@ done
 ## JSON ファイルから CSV データを作成
 
 ```bash
-gzcat  HAC_SERDEV_LIST_20171130_365.json.gz | jq -r '.[] | [.SERIAL_NUMBER, .DEVICE_ID, .MAC_ADDRESS, .UPDATE_DATE] | @csv' > HAC_SERDEV_LIST_20171130_365.csv
+gzcat  foo.json.gz | jq -r '.[] | [.SERIAL_NUMBER, .DEVICE_ID, .MAC_ADDRESS, .UPDATE_DATE] | @csv' > HAC_SERDEV_LIST_20171130_365.csv
 ```
 
 ## refs
